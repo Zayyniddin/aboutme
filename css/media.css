@@ -1,0 +1,100 @@
+@media screen and (max-width:991px) {
+    .banner {
+        height: 670px;
+    }
+
+    .aboutme__wrap {
+        gap: 35px;
+    }
+
+    .aboutme__desc {
+        height: auto;
+    }
+
+    .aboutme__desc-tittle {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .aboutme__nigga img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cards__wrap {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .banner {
+        height: 580px;
+    }
+
+    .banner__wrap {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .nav__menu {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .banner {
+        height: 490px;
+    }
+    .aboutme__desc-p {
+        font-size: 14px;
+        text-align: left;
+    }
+
+}
+
+
+@media screen and (max-width:420px) {
+
+    .banner__tittle {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .banner__call {
+        font-size: 25px;
+
+    }
+    .footer__list {
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .aboutme__wrap{
+       flex-direction: column;
+       align-items: center;
+       gap: 25px;
+    }
+
+    .aboutme__nigga img {
+        max-width: 300px;
+        max-height: 350px;
+        object-fit: cover;
+    }
+    .aboutme__desc {
+        width: 100%;
+        text-align: center;
+    }
+
+    }
